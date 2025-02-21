@@ -313,3 +313,7 @@ html {
 .col-4 h3{
     color: #d818ce;
 }
+.col-9 img{
+        display: block;
+        margin: 0 auto;
+    }
