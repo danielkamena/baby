@@ -316,4 +316,10 @@ html {
 .col-9 img{
         display: block;
         margin: 0 auto;
-    }
+}
+.col-10 img{
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+}
