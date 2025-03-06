@@ -16,17 +16,28 @@
                 <div class="logo">
                     <img src="img G/GM-BEAUTY.png" alt="Bproo logo">
                 </div>
-            <nav>
-                    <ul>               
+                <div class="button"></div>
+            
+                    <ul class="menu">  
                         <li><a href="#accuiel">accuiel</a></li>
                         <li><a href="#à propos">à propos</a></li>
                         <li><a href="#nos produits">nos produits</a></li>
                         <li><a href="#contact">contact</a></li>
                     </ul>
-                    <img src="img G/cart_icon-removebg-preview.png" alt="cart icon" width="30px">
-                </div>
-            </nav>
+                    
+            
             </header>
+            <script>
+                var button = document.querySelector('.button');
+                var menu = document.querySelector('.menu');
+        
+        
+                button.onclick = function(){
+                        button.classList.toggle('active');
+                        menu.classList.toggle('active')
+                }
+            </script>
+
             <section id="accuiel">
                 <div class="row">
                     <div class="col-2">
